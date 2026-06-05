@@ -144,11 +144,11 @@ node src/app.js
 
 Expected Output:
 
-✅ MySQL Connected
+ MySQL Connected
 
-✅ Tables Created / Synced
+ Tables Created / Synced
 
-🚀 Server running on port 5000
+ Server running on port 5000
 
 Backend URL:
 
