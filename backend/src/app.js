@@ -34,18 +34,18 @@ async function startServer() {
   try {
     // Test DB connection
     await sequelize.authenticate();
-    console.log("✅ MySQL Connected");
+    console.log(" MySQL Connected");
 
     // Create/Update tables
     await sequelize.sync();
-    console.log("✅ Tables Created / Synced");
+    console.log("Tables Created / Synced");
 
     // Start Express server
     app.listen(PORT, () => {
-      console.log(`🚀 Server running on port ${PORT}`);
+      console.log(` Server running on port ${PORT}`);
     });
   } catch (error) {
-    console.error("❌ Database Connection Failed");
+    console.error(" Database Connection Failed");
     console.error(error);
   }
 }
