@@ -271,17 +271,6 @@ GET /api/store/dashboard
 * At least one uppercase letter
 * At least one special character
 
----
-
-## Screenshots
-
-Add screenshots of:
-
-1. Login Page
-2. Registration Page
-3. Admin Dashboard
-4. User Dashboard
-5. Store Owner Dashboard
 
 ---
 
